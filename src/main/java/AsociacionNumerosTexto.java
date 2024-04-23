@@ -13,5 +13,12 @@ public class AsociacionNumerosTexto {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese un número para obtener su representación textual: ");
         int numero = scanner.nextInt();
+        if (numerosTexto.containsKey(numero)) {
+            System.out.println("El número " + numero + " en texto es: " + numerosTexto.get(numero));
+        } else {
+            System.out.println("El número no tiene una representación textual asociada.");
+        }
 
+        scanner.close();
+    }
     }
