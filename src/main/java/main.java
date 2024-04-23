@@ -49,3 +49,17 @@ public class main extends JFrame {
         button.setBorderPainted(false);
         button.setFont(new Font("Arial", Font.BOLD, 12));
     }
+    private void openVentaDialog() {
+        JDialog dialog = new JDialog(this, "Añadir Venta", true);
+        dialog.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        dialog.setLayout(new FlowLayout());
+        dialog.setSize(300, 150);
+
+        JTextField txtVenta = new JTextField(20);
+        JButton btnAceptar = new JButton("Aceptar");
+        JButton btnCancelar = new JButton("Cancelar");
+
+        btnAceptar.addActionListener(e -> {
+            // Aquí se añade la venta a la lista
+            dialog.dispose();
+        });
