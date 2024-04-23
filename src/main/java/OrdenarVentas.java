@@ -35,3 +35,8 @@ public class OrdenarVentas {
         ventas.sort(Comparator.comparingInt(v -> v.getCantidad()));
         System.out.println("Ordenado por cantidad:");
         ventas.forEach(System.out::println);
+        ventas.sort(Comparator.comparing(v -> v.getProducto()));
+        System.out.println("\nOrdenado por nombre del producto:");
+        ventas.forEach(System.out::println);
+    }
+}
