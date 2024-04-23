@@ -25,3 +25,9 @@ public class OrdenarVentas {
         return (U) producto;
     }
 }
+public class OrdenarVentas {
+    public static void main(String[] args) {
+        List<Ventas> ventas = new ArrayList<>();
+        ventas.add(new Ventas("Manzanas", 50));
+        ventas.add(new Ventas("Bananas", 20));
+        ventas.add(new Ventas("Naranjas", 70));
