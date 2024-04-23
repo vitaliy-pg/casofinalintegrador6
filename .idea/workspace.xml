@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19bab30c-5cdf-4688-9e08-05c9304e226d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="19bab30c-5cdf-4688-9e08-05c9304e226d" name="Changes" comment="dios quiera que funcione esto">
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
@@ -26,11 +36,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,11 +61,432 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713887599211</updated>
-      <workItem from="1713887600391" duration="3000" />
+      <workItem from="1713887600391" duration="2246000" />
     </task>
+    <task id="LOCAL-00006" summary="clase publicas de archivos">
+      <option name="closed" value="true" />
+      <created>1713887848213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713887848213</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ruta y nombre de los archivos">
+      <option name="closed" value="true" />
+      <created>1713887935373</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713887935374</updated>
+    </task>
+    <task id="LOCAL-00008" summary="comparar con otros archivos">
+      <option name="closed" value="true" />
+      <created>1713887966357</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713887966357</updated>
+    </task>
+    <task id="LOCAL-00009" summary="clase publica de asociar nuemros">
+      <option name="closed" value="true" />
+      <created>1713888030818</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888030818</updated>
+    </task>
+    <task id="LOCAL-00010" summary="bibliotecas">
+      <option name="closed" value="true" />
+      <created>1713888048726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888048726</updated>
+    </task>
+    <task id="LOCAL-00011" summary="letras asociadas a numeros">
+      <option name="closed" value="true" />
+      <created>1713888069048</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888069048</updated>
+    </task>
+    <task id="LOCAL-00012" summary="mostrar los numeros asociados a las letras">
+      <option name="closed" value="true" />
+      <created>1713888096635</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888096635</updated>
+    </task>
+    <task id="LOCAL-00013" summary="clase publica de asociar texto a numeros">
+      <option name="closed" value="true" />
+      <created>1713888138283</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888138283</updated>
+    </task>
+    <task id="LOCAL-00014" summary="bibliotecas">
+      <option name="closed" value="true" />
+      <created>1713888159674</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888159674</updated>
+    </task>
+    <task id="LOCAL-00015" summary="nuemeros">
+      <option name="closed" value="true" />
+      <created>1713888175760</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888175760</updated>
+    </task>
+    <task id="LOCAL-00016" summary="traducir nuemros a texto">
+      <option name="closed" value="true" />
+      <created>1713888196872</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888196872</updated>
+    </task>
+    <task id="LOCAL-00017" summary="por si los numeros no tienen asociacion">
+      <option name="closed" value="true" />
+      <created>1713888225737</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888225737</updated>
+    </task>
+    <task id="LOCAL-00018" summary="clase indexador de archivos">
+      <option name="closed" value="true" />
+      <created>1713888299904</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888299904</updated>
+    </task>
+    <task id="LOCAL-00019" summary="bibliotecas">
+      <option name="closed" value="true" />
+      <created>1713888318318</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888318319</updated>
+    </task>
+    <task id="LOCAL-00020" summary="crear directorios">
+      <option name="closed" value="true" />
+      <created>1713888351841</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888351841</updated>
+    </task>
+    <task id="LOCAL-00021" summary="ordeanr y ver los archivos puestos">
+      <option name="closed" value="true" />
+      <created>1713888374542</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888374542</updated>
+    </task>
+    <task id="LOCAL-00022" summary="para poder mostrar los archivos">
+      <option name="closed" value="true" />
+      <created>1713888402718</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888402718</updated>
+    </task>
+    <task id="LOCAL-00023" summary="clasde publica para ordenar los nombres">
+      <option name="closed" value="true" />
+      <created>1713888472541</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888472541</updated>
+    </task>
+    <task id="LOCAL-00024" summary="bibliotecas">
+      <option name="closed" value="true" />
+      <created>1713888491975</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888491975</updated>
+    </task>
+    <task id="LOCAL-00025" summary="nombre de las personas se pueden cambiar pero que pereza">
+      <option name="closed" value="true" />
+      <created>1713888535587</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888535587</updated>
+    </task>
+    <task id="LOCAL-00026" summary="nombres ordeandos">
+      <option name="closed" value="true" />
+      <created>1713888582510</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888582510</updated>
+    </task>
+    <task id="LOCAL-00027" summary="clase publica para ordenar las ventas">
+      <option name="closed" value="true" />
+      <created>1713888630057</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888630057</updated>
+    </task>
+    <task id="LOCAL-00028" summary="bibliotecas">
+      <option name="closed" value="true" />
+      <created>1713888642833</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888642833</updated>
+    </task>
+    <task id="LOCAL-00029" summary="clase para las ventas">
+      <option name="closed" value="true" />
+      <created>1713888660818</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888660818</updated>
+    </task>
+    <task id="LOCAL-00030" summary="para obtener la cantidad del producto">
+      <option name="closed" value="true" />
+      <created>1713888703066</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888703066</updated>
+    </task>
+    <task id="LOCAL-00031" summary="clase para ordenar las ventas">
+      <option name="closed" value="true" />
+      <created>1713888762726</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888762726</updated>
+    </task>
+    <task id="LOCAL-00032" summary="para ordenaerlas por cantidad">
+      <option name="closed" value="true" />
+      <created>1713888800737</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888800737</updated>
+    </task>
+    <task id="LOCAL-00033" summary="para ordeanrlas por el nombre">
+      <option name="closed" value="true" />
+      <created>1713888835827</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888835827</updated>
+    </task>
+    <task id="LOCAL-00034" summary="clase publica pareja">
+      <option name="closed" value="true" />
+      <created>1713888891750</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888891750</updated>
+    </task>
+    <task id="LOCAL-00035" summary="retoma valores y claves">
+      <option name="closed" value="true" />
+      <created>1713888930263</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1713888930263</updated>
+    </task>
+    <task id="LOCAL-00036" summary="camabiando el pom">
+      <option name="closed" value="true" />
+      <created>1713889047757</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889047757</updated>
+    </task>
+    <task id="LOCAL-00037" summary="main">
+      <option name="closed" value="true" />
+      <created>1713889299617</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889299617</updated>
+    </task>
+    <task id="LOCAL-00038" summary="bibliotecas">
+      <option name="closed" value="true" />
+      <created>1713889326270</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889326270</updated>
+    </task>
+    <task id="LOCAL-00039" summary="parte de gestion de datos dinamicos">
+      <option name="closed" value="true" />
+      <created>1713889361237</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889361237</updated>
+    </task>
+    <task id="LOCAL-00040" summary="parte del pequeño menu">
+      <option name="closed" value="true" />
+      <created>1713889390492</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889390492</updated>
+    </task>
+    <task id="LOCAL-00041" summary="customizar botones">
+      <option name="closed" value="true" />
+      <created>1713889414703</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889414703</updated>
+    </task>
+    <task id="LOCAL-00042" summary="para las ventas">
+      <option name="closed" value="true" />
+      <created>1713889439471</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889439471</updated>
+    </task>
+    <task id="LOCAL-00043" summary="parte de customizar los botones">
+      <option name="closed" value="true" />
+      <created>1713889474401</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889474401</updated>
+    </task>
+    <task id="LOCAL-00044" summary="para abrir una ventana de dialogo">
+      <option name="closed" value="true" />
+      <created>1713889504348</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889504348</updated>
+    </task>
+    <task id="LOCAL-00045" summary="parte de  una ventana de dialogo">
+      <option name="closed" value="true" />
+      <created>1713889527630</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889527630</updated>
+    </task>
+    <task id="LOCAL-00046" summary="para añadir nombre de las listas">
+      <option name="closed" value="true" />
+      <created>1713889554909</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889554909</updated>
+    </task>
+    <task id="LOCAL-00047" summary="aceptar nuevo nombre">
+      <option name="closed" value="true" />
+      <created>1713889579678</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889579678</updated>
+    </task>
+    <task id="LOCAL-00048" summary="para cambiar de numero a letras">
+      <option name="closed" value="true" />
+      <created>1713889615979</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889615979</updated>
+    </task>
+    <task id="LOCAL-00049" summary="para añadir un nuevo numero a la lista">
+      <option name="closed" value="true" />
+      <created>1713889641322</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889641322</updated>
+    </task>
+    <task id="LOCAL-00050" summary="para cambiar de numero a texto">
+      <option name="closed" value="true" />
+      <created>1713889666617</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889666618</updated>
+    </task>
+    <task id="LOCAL-00051" summary="para introducir el numero">
+      <option name="closed" value="true" />
+      <created>1713889693165</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889693165</updated>
+    </task>
+    <task id="LOCAL-00052" summary="para abrir archivos">
+      <option name="closed" value="true" />
+      <created>1713889749773</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889749774</updated>
+    </task>
+    <task id="LOCAL-00053" summary="añadir la ruta del archivo">
+      <option name="closed" value="true" />
+      <created>1713889776422</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889776422</updated>
+    </task>
+    <task id="LOCAL-00054" summary="dios quiera que funcione esto">
+      <option name="closed" value="true" />
+      <created>1713889806101</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1713889806101</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="para obtener la cantidad del producto" />
+    <MESSAGE value="clase para ordenar las ventas" />
+    <MESSAGE value="para ordenaerlas por cantidad" />
+    <MESSAGE value="para ordeanrlas por el nombre" />
+    <MESSAGE value="clase publica pareja" />
+    <MESSAGE value="retoma valores y claves" />
+    <MESSAGE value="camabiando el pom" />
+    <MESSAGE value="main" />
+    <MESSAGE value="bibliotecas" />
+    <MESSAGE value="parte de gestion de datos dinamicos" />
+    <MESSAGE value="parte del pequeño menu" />
+    <MESSAGE value="customizar botones" />
+    <MESSAGE value="para las ventas" />
+    <MESSAGE value="parte de customizar los botones" />
+    <MESSAGE value="para abrir una ventana de dialogo" />
+    <MESSAGE value="parte de  una ventana de dialogo" />
+    <MESSAGE value="para añadir nombre de las listas" />
+    <MESSAGE value="aceptar nuevo nombre" />
+    <MESSAGE value="para cambiar de numero a letras" />
+    <MESSAGE value="para añadir un nuevo numero a la lista" />
+    <MESSAGE value="para cambiar de numero a texto" />
+    <MESSAGE value="para introducir el numero" />
+    <MESSAGE value="para abrir archivos" />
+    <MESSAGE value="añadir la ruta del archivo" />
+    <MESSAGE value="dios quiera que funcione esto" />
+    <option name="LAST_COMMIT_MESSAGE" value="dios quiera que funcione esto" />
   </component>
 </project>
