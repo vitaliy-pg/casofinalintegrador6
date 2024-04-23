@@ -144,3 +144,16 @@ public class main extends JFrame {
             // Aquí se añade el número y texto a la lista
             dialog.dispose();
         });
+
+        btnCancelar.addActionListener(e -> dialog.dispose());
+
+        dialog.add(new JLabel("Introduce el número:"));
+        dialog.add(txtNumero);
+        dialog.add(new JLabel("Introduce el texto:"));
+        dialog.add(txtTexto);
+        dialog.add(btnAceptar);
+        dialog.add(btnCancelar);
+
+        dialog.setLocationRelativeTo(this);
+        dialog.setVisible(true);
+    }
