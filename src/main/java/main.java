@@ -99,3 +99,14 @@ public class main extends JFrame {
         dialog.setLocationRelativeTo(this);
         dialog.setVisible(true);
     }
+
+    private void openNumeroLetraDialog() {
+        JDialog dialog = new JDialog(this, "Añadir Número y Letra", true);
+        dialog.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        dialog.setLayout(new FlowLayout());
+        dialog.setSize(300, 150);
+
+        JTextField txtNumero = new JTextField(10);
+        JTextField txtLetra = new JTextField(10);
+        JButton btnAceptar = new JButton("Aceptar");
+        JButton btnCancelar = new JButton("Cancelar");
