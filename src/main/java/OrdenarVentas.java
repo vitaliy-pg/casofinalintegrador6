@@ -31,3 +31,7 @@ public class OrdenarVentas {
         ventas.add(new Ventas("Manzanas", 50));
         ventas.add(new Ventas("Bananas", 20));
         ventas.add(new Ventas("Naranjas", 70));
+
+        ventas.sort(Comparator.comparingInt(v -> v.getCantidad()));
+        System.out.println("Ordenado por cantidad:");
+        ventas.forEach(System.out::println);
