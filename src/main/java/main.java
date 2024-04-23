@@ -28,5 +28,17 @@ public class main extends JFrame {
         customizeButton(btnNumeroLetra, new Color(255, 178, 102));
         customizeButton(btnNumeroTexto, new Color(153, 204, 255));
         customizeButton(btnArchivo, new Color(102, 255, 178));
+        btnVenta.addActionListener(e -> openVentaDialog());
+        btnNombre.addActionListener(e -> openNombreDialog());
+        btnNumeroLetra.addActionListener(e -> openNumeroLetraDialog());
+        btnNumeroTexto.addActionListener(e -> openNumeroTextoDialog());
+        btnArchivo.addActionListener(e -> openArchivoDialog());
+
+        add(btnVenta);
+        add(btnNombre);
+        add(btnNumeroLetra);
+        add(btnNumeroTexto);
+        add(btnArchivo);
+
 
     }
