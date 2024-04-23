@@ -7,5 +7,11 @@ public class AsociacionNumerosLetras {
         numerosLetras.put(2, 'B');
         numerosLetras.put(3, 'C');
         numerosLetras.put(4, 'D');
-
+        int numero = 3;
+        if (numerosLetras.containsKey(numero)) {
+            System.out.println("El número " + numero + " está asociado a la letra " + numerosLetras.get(numero));
+        } else {
+            System.out.println("El número no tiene una letra asociada.");
+        }
+    }
     }
