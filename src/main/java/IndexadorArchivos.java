@@ -24,4 +24,10 @@ public class IndexadorArchivos {
             archivos.sort((a1, a2) -> a1.getClass().componentType().getModifiers());
             archivos.forEach(System.out::println);
         }
+
+        public static void main(String[] args) {
+            IndexadorArchivos indexador = new IndexadorArchivos();
+            indexador.indexarDirectorio("/Users/adrianareyesmorera/Desktop/VentasPersonas.txt");
+            indexador.mostrarArchivosOrdenados();
+        }
 }
