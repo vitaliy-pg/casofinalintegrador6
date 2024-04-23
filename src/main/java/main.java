@@ -42,3 +42,10 @@ public class main extends JFrame {
 
 
     }
+
+    private void customizeButton(JButton button, Color bgColor) {
+        button.setBackground(bgColor);
+        button.setOpaque(true);
+        button.setBorderPainted(false);
+        button.setFont(new Font("Arial", Font.BOLD, 12));
+    }
