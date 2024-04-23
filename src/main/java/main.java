@@ -128,3 +128,19 @@ public class main extends JFrame {
         dialog.setLocationRelativeTo(this);
         dialog.setVisible(true);
     }
+
+    private void openNumeroTextoDialog() {
+        JDialog dialog = new JDialog(this, "Añadir Número y Texto", true);
+        dialog.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        dialog.setLayout(new FlowLayout());
+        dialog.setSize(300, 150);
+
+        JTextField txtNumero = new JTextField(10);
+        JTextField txtTexto = new JTextField(10);
+        JButton btnAceptar = new JButton("Aceptar");
+        JButton btnCancelar = new JButton("Cancelar");
+
+        btnAceptar.addActionListener(e -> {
+            // Aquí se añade el número y texto a la lista
+            dialog.dispose();
+        });
