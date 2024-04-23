@@ -22,4 +22,11 @@ public class main extends JFrame {
         JButton btnNumeroTexto = new JButton("Añadir Número y Texto");
         JButton btnArchivo = new JButton("Añadir Archivo");
 
+
+        customizeButton(btnVenta, new Color(255, 102, 102));
+        customizeButton(btnNombre, new Color(102, 204, 255));
+        customizeButton(btnNumeroLetra, new Color(255, 178, 102));
+        customizeButton(btnNumeroTexto, new Color(153, 204, 255));
+        customizeButton(btnArchivo, new Color(102, 255, 178));
+
     }
