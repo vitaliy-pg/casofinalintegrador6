@@ -19,4 +19,9 @@ public class IndexadorArchivos {
                 }
             }
         }
+
+        public void mostrarArchivosOrdenados() {
+            archivos.sort((a1, a2) -> a1.getClass().componentType().getModifiers());
+            archivos.forEach(System.out::println);
+        }
 }
