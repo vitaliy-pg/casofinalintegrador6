@@ -88,3 +88,14 @@ public class main extends JFrame {
             // Aquí se añade el nombre a la lista
             dialog.dispose();
         });
+
+        btnCancelar.addActionListener(e -> dialog.dispose());
+
+        dialog.add(new JLabel("Introduce el nombre:"));
+        dialog.add(txtNombre);
+        dialog.add(btnAceptar);
+        dialog.add(btnCancelar);
+
+        dialog.setLocationRelativeTo(this);
+        dialog.setVisible(true);
+    }
