@@ -167,3 +167,18 @@ public class main extends JFrame {
         JTextField txtRuta = new JTextField(20);
         JButton btnAceptar = new JButton("Aceptar");
         JButton btnCancelar = new JButton("Cancelar");
+        btnAceptar.addActionListener(e -> {
+            // Aquí se añade la ruta del archivo a la lista
+            dialog.dispose();
+        });
+
+        btnCancelar.addActionListener(e -> dialog.dispose());
+
+        dialog.add(new JLabel("Introduce la ruta del archivo:"));
+        dialog.add(txtRuta);
+        dialog.add(btnAceptar);
+        dialog.add(btnCancelar);
+
+        dialog.setLocationRelativeTo(this);
+        dialog.setVisible(true);
+    }
