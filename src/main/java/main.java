@@ -73,3 +73,18 @@ public class main extends JFrame {
         dialog.setLocationRelativeTo(this);
         dialog.setVisible(true);
     }
+
+    private void openNombreDialog() {
+        JDialog dialog = new JDialog(this, "Añadir Nombre", true);
+        dialog.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        dialog.setLayout(new FlowLayout());
+        dialog.setSize(300, 150);
+
+        JTextField txtNombre = new JTextField(20);
+        JButton btnAceptar = new JButton("Aceptar");
+        JButton btnCancelar = new JButton("Cancelar");
+
+        btnAceptar.addActionListener(e -> {
+            // Aquí se añade el nombre a la lista
+            dialog.dispose();
+        });
