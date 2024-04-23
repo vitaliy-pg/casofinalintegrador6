@@ -9,4 +9,9 @@ public class AsociacionNumerosTexto {
         numerosTexto.put(2, "Dos");
         numerosTexto.put(3, "Tres");
         numerosTexto.put(4, "Cuatro");
-}
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese un número para obtener su representación textual: ");
+        int numero = scanner.nextInt();
+
+    }
