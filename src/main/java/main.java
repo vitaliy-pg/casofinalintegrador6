@@ -63,3 +63,13 @@ public class main extends JFrame {
             // Aquí se añade la venta a la lista
             dialog.dispose();
         });
+        btnCancelar.addActionListener(e -> dialog.dispose());
+
+        dialog.add(new JLabel("Introduce la venta:"));
+        dialog.add(txtVenta);
+        dialog.add(btnAceptar);
+        dialog.add(btnCancelar);
+
+        dialog.setLocationRelativeTo(this);
+        dialog.setVisible(true);
+    }
