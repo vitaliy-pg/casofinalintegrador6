@@ -13,4 +13,13 @@ public class main extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
     }
-}
+
+
+    private void initializeComponents() {
+        JButton btnVenta = new JButton("Añadir Venta");
+        JButton btnNombre = new JButton("Añadir Nombre");
+        JButton btnNumeroLetra = new JButton("Añadir Número y Letra");
+        JButton btnNumeroTexto = new JButton("Añadir Número y Texto");
+        JButton btnArchivo = new JButton("Añadir Archivo");
+
+    }
