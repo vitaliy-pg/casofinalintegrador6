@@ -110,3 +110,21 @@ public class main extends JFrame {
         JTextField txtLetra = new JTextField(10);
         JButton btnAceptar = new JButton("Aceptar");
         JButton btnCancelar = new JButton("Cancelar");
+
+        btnAceptar.addActionListener(e -> {
+            // Aquí se añade el número y letra a la lista
+            dialog.dispose();
+        });
+
+        btnCancelar.addActionListener(e -> dialog.dispose());
+
+        dialog.add(new JLabel("Introduce el número:"));
+        dialog.add(txtNumero);
+        dialog.add(new JLabel("Introduce la letra:"));
+        dialog.add(txtLetra);
+        dialog.add(btnAceptar);
+        dialog.add(btnCancelar);
+
+        dialog.setLocationRelativeTo(this);
+        dialog.setVisible(true);
+    }
