@@ -10,4 +10,13 @@ public class AnalizarVentas {
                 new Ventas("Naranjas", 70)
         );
 
+        int cantidadMinima = 30;
+        List<Ventas> ventasFiltradas = ventas.stream()
+                .filter(v -> v.getCantidad() > cantidadMinima)
+                .collect(Collectors.toList());
+
+        System.out.println("Ventas con cantidad mayor a " + cantidadMinima + ":");
+        ventasFiltradas.forEach(System.out::println);
+    }
+
     }
