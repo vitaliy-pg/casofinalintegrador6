@@ -1,4 +1,3 @@
-
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -18,5 +17,4 @@ public class AnalizarVentas {
         System.out.println("Ventas con cantidad mayor a " + cantidadMinima + ":");
         ventasFiltradas.forEach(System.out::println);
     }
-
-    }
+}
