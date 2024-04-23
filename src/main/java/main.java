@@ -182,3 +182,7 @@ public class main extends JFrame {
         dialog.setLocationRelativeTo(this);
         dialog.setVisible(true);
     }
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new GestionDatosDinamicos());
+    }
+}
