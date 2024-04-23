@@ -157,3 +157,13 @@ public class main extends JFrame {
         dialog.setLocationRelativeTo(this);
         dialog.setVisible(true);
     }
+
+    private void openArchivoDialog() {
+        JDialog dialog = new JDialog(this, "Añadir Archivo", true);
+        dialog.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+        dialog.setLayout(new FlowLayout());
+        dialog.setSize(300, 150);
+
+        JTextField txtRuta = new JTextField(20);
+        JButton btnAceptar = new JButton("Aceptar");
+        JButton btnCancelar = new JButton("Cancelar");
