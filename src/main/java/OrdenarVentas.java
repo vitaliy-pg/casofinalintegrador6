@@ -12,4 +12,16 @@ public class OrdenarVentas {
         this.producto = producto;
         this.cantidad = cantidad;
     }
+
+    public String toString() {
+        return "Producto: " + producto + ", Cantidad: " + cantidad;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public <U> U getProducto() {
+        return (U) producto;
+    }
 }
